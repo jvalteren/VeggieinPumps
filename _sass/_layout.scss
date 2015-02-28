@@ -27,7 +27,6 @@
 }
 
 .header-title {
-    float: left;
     font-size: 4em;
     padding-left: $grid-padding;
     position: relative;
@@ -40,6 +39,20 @@
     padding-right: $grid-padding;
     position: relative;
     top: 2em;
+}
+
+@include media-query($on-palm) {
+    .header-col {
+	margin: 0;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+    .header-title {
+        position: static;
+    }
+    .header-subtitle {
+        position: static;
+    }
 }
 
 /**
