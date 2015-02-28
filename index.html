@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="container">
+
+        <div id="grid-gallery" class="grid-gallery">
+
+        <section class="grid-wrap">
+        <ul class="grid">
+                <li class="grid-sizer"></li><!-- for Masonry column width -->
+                {% for post in site.posts %}
+                <li>
+                        <figure>
+                                <img src="{{ site.baseurl }}/img/thumb/{{ post.photo }}" alt="img"/>
+                        </figure>
+                </li>
+                {% endfor %}
+        </ul>
+        </section><!-- // grid-wrap -->
+
+        <ul>
+        </ul>
+
+        </div><!-- // grid-gallery -->
+
+  </div>
+
+    <script src="{{ site.baseurl }}/js/imagesloaded.pkgd.min.js"></script>
+    <script src="{{ site.baseurl }}/js/masonry.pkgd.min.js"></script>
+    <script src="{{ site.baseurl }}/js/classie.js"></script>
+    <script src="{{ site.baseurl }}/js/gridGallery.js"></script>
+    <script>
+      new GridGallery( document.getElementById( 'grid-gallery' ) );
+    </script>
+
+</div>
