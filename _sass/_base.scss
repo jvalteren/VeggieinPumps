@@ -154,8 +154,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc($page-width - (#{$spacing-unit} * 2));
-    max-width:         calc($page-width - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$wrapper-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$wrapper-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -165,8 +165,8 @@ pre {
 
 @include media-query($on-laptop) {
     .wrapper {
-        max-width: -webkit-calc($page-width - (#{$spacing-unit}));
-        max-width:         calc($page-width - (#{$spacing-unit}));
+        max-width: -webkit-calc(#{$wrapper-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$wrapper-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -174,8 +174,8 @@ pre {
 
 @include media-query($on-palm) {
     .wrapper {
-        max-width: -webkit-calc($page-width - (#{$spacing-unit} / 2));
-        max-width:         calc($page-width - (#{$spacing-unit} / 2));
+        max-width: -webkit-calc(#{$wrapper-width} - (#{$spacing-unit} / 2));
+        max-width:         calc(#{$wrapper-width} - (#{$spacing-unit} / 2));
         padding-right: $spacing-unit / 4;
         padding-left: $spacing-unit / 4;
     }

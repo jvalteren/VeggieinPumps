@@ -1,6 +1,6 @@
 ---
 layout: default
-date:   2014-04-06 23:26:12
+date:   2015-03-01 12:00:00
 photo: 2.jpg
 caption_header: Sample header
 caption: sample caption
