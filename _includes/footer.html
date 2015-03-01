@@ -6,6 +6,9 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.phone %}
+          <li><span class="text">{{ site.phone }}</span></li>
+          {% endif %}
         </ul>
       </div>
 
