@@ -1,9 +1,9 @@
 # Site settings
 title: Veggie in Pumps
-subtitle: because we love ecofabulous food
+subtitle: because we love Ecofabulous food
 email: info@veggieinpumps.com
 description: > # this means to ignore newlines until "baseurl:"
-  Veggie in Pumps bestaat uit de allround creatieve styliste en ontwerpster Roos Rutjes en foodstyliste, fotografe en schijfster van vegan kookboeken Lisette Kreischer. De missie van Roos en Lisette is mensen te inspireren de plantaardige keuken te integreren in het dagelijks leven en dat doen zij met hun inmiddels beroemde Ecofabulous sausje, waarmee zij deze keuken wel heel verleidelijk maken. Met inmiddels 8 boeken op hun naam ligt het specialisme van Veggie in Pumps bij het maken van mooie en sfeervolle vegan kookboeken. Neem contact op met Veggie in Pump voor een ecofabulous/vegan foodconcept, styling of fotografie.
+  Veggie in Pumps bestaat uit de creatieve styliste en ontwerpster Roos Rutjes en foodstyliste, fotografe en schrijver van vegan kookboeken Lisette Kreischer. De missie van Roos en Lisette is het inspireren van mensen om de plantaardige keuken te integreren in hun dagelijks leven. Dat doen zij met hun Ecofabulous aanpak, waarmee zij deze keuken wel heel verleidelijk weten te maken. Het specialisme van Veggie in Pumps is het maken van mooie en sfeervolle plantaardige kookboeken, waarvan ze inmiddels al 8 op hun naam hebben staan. Heb je een Ecofabulous wens op gebied van styling, food of fotografie? Neem dan contact op met Veggie in Pumps!
 baseurl: "/VeggieinPumps/" # the subpath of your site, e.g. /blog/
 url: "http://www.veggieinpumps.com" # the base hostname & protocol for your site
 twitter_username: veggieinpumps
