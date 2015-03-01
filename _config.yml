@@ -5,7 +5,7 @@ email: info@veggieinpumps.com
 phone: +31(0)6 - 142 68 183
 description: > # this means to ignore newlines until "baseurl:"
   Veggie in Pumps bestaat uit de creatieve styliste en ontwerpster Roos Rutjes en foodstyliste, fotografe en schrijver van vegan kookboeken Lisette Kreischer. De missie van Roos en Lisette is het inspireren van mensen om de plantaardige keuken te integreren in hun dagelijks leven. Dat doen zij met hun Ecofabulous aanpak, waarmee zij deze keuken wel heel verleidelijk weten te maken. Het specialisme van Veggie in Pumps is het maken van mooie en sfeervolle plantaardige kookboeken, waarvan ze inmiddels al 8 op hun naam hebben staan. Heb je een Ecofabulous wens op gebied van styling, food of fotografie? Neem dan contact op met Veggie in Pumps!
-baseurl: "/VeggieinPumps" # the subpath of your site, e.g. /blog (NOTE: no trailing slash required)
+baseurl: "" # the subpath of your site, e.g. /blog (NOTE: no trailing slash required)
 url: "http://site.veggieinpumps.com" # the base hostname & protocol for your site
 twitter_username: veggieinpumps
 facebook_username: veggieinpumpsbeingecofabulous
