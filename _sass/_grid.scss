@@ -36,10 +36,6 @@
 	transition: opacity 0.2s;
 }
 
-.grid li:hover figure {
-	opacity: 0.7;
-}
-
 @media screen and (max-width: 60em) {
 	/* responsive columns; see "Element sizing" on http://masonry.desandro.com/options.html */
 	.grid li {
